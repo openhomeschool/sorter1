@@ -12,6 +12,8 @@ You may want to use some of these...
 
 ```python
 my_list = ['hi', 'bye']    # this creates a list with two items in it: 'hi' and 'bye'
+my_list.append('another')  # this appends the word 'another' to the list, so that it now contains ['hi', 'bye', 'another']
+print(my_list)             # this prints my_list, so that you can see that it now contains all 3 words
 my_list.insert(1, 'chat')  # this inserts the word 'chat' at position 1, right after 'hi' (which is at position 0)
 'hi' < 'bye'               # this returns false because, alphabetically, 'bye' is less than 'hi', so...
 if 'hi' < 'bye':
